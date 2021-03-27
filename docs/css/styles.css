@@ -234,14 +234,17 @@ body {
 
 .why-us__list {
   padding-left: 0;
-  font-size: 0.85rem;
-  font-weight: var(--fw-normal);
-  line-height: 1.5;
   list-style: none;
 }
 
+.why-us__item {
+  font-size: 0.85rem;
+  font-weight: var(--fw-normal);
+  line-height: 1.5;
+}
+
 @media screen and (min-width: 768px) {
-  .why-us__list {
+  .why-us__item {
     font-size: 0.9rem;
   }
 }
